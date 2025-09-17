@@ -34,7 +34,7 @@ def find_nearby_therapists_by_location(location: str) -> str:
 #Create an ai agent and link to backend
 from langchain_groq import ChatGroq
 from langgraph.prebuilt import create_react_agent
-from config import GROQ_API_KEY
+from backend.config import GROQ_API_KEY
 
 tools = [ask_mental_health_specialist, emergency_call_tool, find_nearby_therapists_by_location]
 
