@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain
+langchain_groq
+langgraph
+streamlit
+twilio
+requests
+ollama

@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.env
+
+# Config files with secrets (optional if you want to be extra safe)
+backend/config.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Streamlit
+.streamlit/
