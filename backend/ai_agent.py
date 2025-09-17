@@ -1,6 +1,6 @@
 
 from langchain.agents import tool
-from tools import query_medgemma, call_emergency, find_support_nearby
+from backend.tools import query_medgemma, call_emergency, find_support_nearby
 
 @tool
 def ask_mental_health_specialist(query: str) -> str:
