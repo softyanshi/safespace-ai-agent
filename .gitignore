@@ -19,7 +19,7 @@ ENV/
 *.env
 
 # Config files with secrets (optional if you want to be extra safe)
-backend/config.py
+
 
 # OS files
 .DS_Store
